@@ -53,40 +53,41 @@
 <body>
 
   <!-- Hero Section -->
-  <main class="flex flex-col justify-center items-center relative">
+  <main class="flex flex-col justify-center items-center px-6 relative">
     <div class="absolute h-full w-full top-0 left-0 bg-dart">
     </div>
-    <header class="mx-auto flex justify-between items-center w-full px-6 pt-6 text-primartTextColor">
+    <header class="mx-auto flex justify-between items-center w-full p-6 text-primartTextColor">
       <!-- Logo -->
       <div>
         <h1 class="text-3xl font-alkatra">Skill Smooth</h1>
       </div>
-      <nav class="hidden md:flex items-center gap-6 mr-3">
-        <li class="list-none "><a href="#" class="text-xl ">Our Course</a></li>
-        <li class="list-none "><a href="#" class="text-xl ">Features</a></li>
-        <li class="list-none "><a href="#" class="text-xl ">Mentors</a></li>
-        <li class="list-none "><a href="#" class="text-xl ">Contact</a></li>
+      <nav class="hidden lg:flex items-center gap-6 mr-3">
+        <li class="list-none "><a href="#course" class="text-xl ">Our Course</a></li>
+        <li class="list-none "><a href="#features" class="text-xl ">Features</a></li>
+        <li class="list-none "><a href="#mentor" class="text-xl ">Mentors</a></li>
+        <li class="list-none "><a href="#contact" class="text-xl ">Contact</a></li>
       </nav>
       <!-- <button class="text-white bg-primaryBtn hidden md:block rounded-2xl text-lg px-8 py-2 tracking-widest">Contact
         Us</button> -->
       <button
         class="hidden md:block w-full md:w-auto text-2xl bg-primaryBtn text-white gap-4 px-6 py-2 rounded-2xl shadow hover:shadow-xl duration-500 hover:-translate-y-1">
-        Start classes
+        Start Classes
       </button>
     </header>
     <h2 class="text-3xl md:text-5xl mx-auto text-center text-darkPurpule max-w-3xl font-workSans my-6">Building the Web
       of Tomorrow with Skill Smooth</h2>
-    <p class="text-lg text-center opacity-50 font-sans max-w-2xl mx-auto">Ready to become a web development and
+    <p class="text-base md:text-lg text-center opacity-50 font-sans max-w-2xl mx-auto">Ready to become a web development
+      and
       design pro<span class="font-alkatra">?</span> Enroll in Skill Smooth today and get expert training from industry
       professionals!</p>
     <div
       class="w-full md:w-auto flex flex-col-reverse md:flex-row gap-4 md:gap-10 items-center md:justify-between my-6 px-12">
       <button
-        class="w-full md:w-auto  text-2xl border-2 border-primaryBtn px-6 py-2 rounded-xl hover:bg-primaryBtn hover:text-white duration-300 hover:-translate-y-1">
+        class="w-full md:w-auto text-xl md:text-2xl border-2 border-primaryBtn px-6 py-2 rounded-xl hover:bg-primaryBtn hover:text-white duration-300 hover:-translate-y-1">
         Join Us
       </button>
       <button
-        class="w-full md:w-auto text-2xl bg-primaryBtn text-white gap-4 px-6 py-2 rounded-2xl shadow hover:shadow-xl duration-500 hover:-translate-y-1">
+        class="w-full md:w-auto text-lg md:text-2xl bg-primaryBtn text-white gap-4 px-6 py-3 md:py-2 rounded-2xl shadow hover:shadow-xl duration-500 hover:-translate-y-1">
         Start Free Trial
       </button>
     </div>
@@ -110,7 +111,8 @@
 
   <section
     class="flex flex-col md:flex-row justify-between items-center gap-6 md:gap-0 bg-darkPurpule mt-10 bg-radial px-10 py-10 md:py-14 ">
-    <svg class="h-9" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 184 23">
+    <svg class="h-9 block md:hidden lg:block" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 184 23">
       <path
         d="M25.84,12.78l-2.58,1.28v2.55l-7.75,3.84L7.76,16.61V9L5.16,7.67,15.5,2.55,20.67,5.1l5.16,2.56L15.5,12.78,11.92,11v2.56l3.58,1.76L31,7.67,20.67,2.55,15.5,0,0,7.67l5.16,2.55v7.66L15.5,23l10.34-5.12v-5.1Z" />
       <path d="M45.49,3h3.67l6.41,18H52.83L51.39,16.9H43.13l-1.44,4H39Zm5,11.5-3.18-9h-.21L44,14.5Z" />
@@ -136,25 +138,28 @@
     <img src="./asserts/coursera-logo-white-rgb.png" class="h-16">
   </section>
 
+
+
   <!-- Our Course -->
-  <section class="flex flex-col lg:flex-row py-6 px-6 bg-gray-100 items-center lg:items-start">
-    <div class="flex flex-col gap-2 max-w-lg">
+  <section class="flex flex-col lg:flex-row py-6 px-6 bg-gray-100 items-center lg:items-start" id="course">
+    <div class="flex flex-col gap-2 sm:max-w-lg md:max-w-3xl lg:max-w-lg">
       <p class="text-lg font-semibold text-center lg:text-left">Our Products </p>
-      <h2 class="text-2xl md:text-3xl lg:text-5xl font-semibold font-workSans text-center lg:text-left">
+      <h2 class="text-2xl md:text-4xl lg:text-5xl font-semibold font-workSans text-center lg:text-left">
         The Path to Your Dreams Starts Here
       </h2>
-      <p class="text-base text-black md:text-lg opacity-50 font-sans text-center lg:text-justify max-w-md">
+      <p
+        class="text-base text-black md:text-lg opacity-50 font-sans text-center lg:text-justify mx-auto lg:mx-0 md:max-w-xl lg:max-w-md">
         Discover our diverse course categories, tailored to suit your interests and goals. Easily navigate through our
         platform and find the courses you need to develop skills</p>
       <button
-        class="text-white px-6 py-3 text-lg lg:max-w-fit bg-primaryBtn rounded mt-2 lg:mt-4 lg:mx-0  shadow cursor-pointer hover:-translate-y-px hover:shadow-xl duration-500">Discover
+        class="text-white px-6 py-3 text-lg md:max-w-fit bg-primaryBtn rounded mt-2 lg:mt-4 md:mx-auto lg:mx-0 shadow cursor-pointer hover:-translate-y-px hover:shadow-xl duration-500">Discover
         More
         Course</button>
     </div>
 
     <!-- Courses -->
     <div
-      class="flex flex-col md:flex-row my-6 lg:my-0 gap-4 w-full items-center justify-center md:justify-between lg:justify-evenly">
+      class="flex flex-col md:flex-row my-6 lg:my-0 gap-4 w-full items-center justify-center md:justify-evenly lg:justify-between">
       <div
         class="flex flex-col rounded-2xl bg-feature-section text-black shadow-md cursor-pointer hover:-translate-y-0.5 duration-500 items-center py-10 px-4 gap-4 max-w-xs">
         <h3 class="text-white text-xl md:text-3xl">
@@ -180,8 +185,10 @@
   </section>
 
 
+
+
   <!-- Featured Section -->
-  <section class="flex justify-center relative px-0 md:px-6 md:py-14">
+  <section class="flex justify-center relative px-0 lg:px-6 md:py-14" id="features">
     <div class="flex flex-col text-white bg-feature-section w-full md:w-5/6 md:rounded-2xl md:max-h-96 pb-10">
       <div class="flex flex-col px-6">
         <h2 class="text-3xl md:text-5xl text-center font-workSans mt-10">
@@ -210,7 +217,6 @@
           <h3 class="text-black text-xl md:text-3xl">
             Master the Art of <br> Designing with AI
           </h3>
-
           <div class="flex gap-3 items-center mt-1">
             <img src="./asserts/man-11.jpg" alt="" class="h-10 rounded-full">
             <h4 class="text-lg text-gray-500">
@@ -220,49 +226,47 @@
         </div>
 
         <div
-          class="flex flex-col gap-1 p-3 rounded-2xl bg-white text-black shadow-md hover:shadow-2xl cursor-pointer hover:-translate-y-0.5 duration-500">
+          class="hidden lg:flex flex-col gap-1 p-3 rounded-2xl bg-white text-black shadow-md hover:shadow-2xl cursor-pointer hover:-translate-y-0.5 duration-500">
           <div class="flex relative justify-center items-center">
-            <img src="./asserts/Screenshot 2023-03-28 214015.png" alt="" class="h-52 rounded-2xl">
-            <img src="./asserts/artificial-intelligence-ai-icon.png" alt="" class="h-32 absolute">
+            <img src="./asserts/web-course.png" alt="" class="h-52 rounded-2xl">
           </div>
           <!-- Students count and lenght of course -->
           <div class="flex justify-between items-center w-full text-gray-500 px-1 mt-3">
-            <p>60 Students</p>
-            <p>35 hrs</p>
+            <p>90 Students</p>
+            <p>125 hrs</p>
           </div>
           <!-- Title -->
           <h3 class="text-black text-3xl ">
-            Master the Art of <br> Designing with AI
+            Build Your Web <br> Page: Like a Pro
           </h3>
-
           <div class="flex gap-3 items-center mt-1">
-            <img src="./asserts/man-11.jpg" alt="" class="h-10 rounded-full">
+            <img src="./asserts/women-11.jpg" alt="" class="h-10 rounded-full">
             <h4 class="text-lg text-gray-500">
-              Foka Samuil
+              Julienne
             </h4>
           </div>
         </div>
 
+
+
         <div
           class="flex flex-col gap-1 p-3 rounded-2xl bg-white text-black shadow-md hover:shadow-2xl cursor-pointer hover:-translate-y-0.5 duration-500">
           <div class="flex relative justify-center items-center">
-            <img src="./asserts/Screenshot 2023-03-28 214015.png" alt="" class="h-52 rounded-2xl">
-            <img src="./asserts/artificial-intelligence-ai-icon.png" alt="" class="h-32 absolute">
+            <img src="./asserts/figma-course.png" alt="" class="h-52 rounded-2xl">
           </div>
           <!-- Students count and lenght of course -->
           <div class="flex justify-between items-center w-full text-gray-500 px-1 mt-3">
-            <p>60 Students</p>
-            <p>35 hrs</p>
+            <p>35 Students</p>
+            <p>46 hrs</p>
           </div>
           <!-- Title -->
           <h3 class="text-black text-3xl ">
-            Master the Art of <br> Designing with AI
+            Figma Wizards : <br> Modern Design
           </h3>
-
           <div class="flex gap-3 items-center mt-1">
-            <img src="./asserts/man-11.jpg" alt="" class="h-10 rounded-full">
+            <img src="./asserts/women-12.jpg" alt="" class="h-10 rounded-full">
             <h4 class="text-lg text-gray-500">
-              Foka Samuil
+              Helen Meza
             </h4>
           </div>
         </div>
@@ -270,20 +274,21 @@
     </div>
   </section>
 
+
+
   <!-- Mentor Section -->
 
-  <section class="flex flex-col lg:flex-row px-6 py-8 lg:py-20 lg:mt-52 gap-8 bg-gray-100">
+  <section class="flex flex-col lg:flex-row px-6 py-10 lg:py-14 md:mt-52 gap-8 bg-gray-100" id="mentor">
     <!-- Mentor Left Section -->
-    <div class="flex flex-col gap-4">
-      <h2 class="text-2xl text-center md:text-justify md:text-5xl text-darkPurpule max-w-xl font-workSans">
+    <div class="flex flex-col gap-4 items-center lg:items-start">
+      <h2 class="text-2xl text-center lg:text-justify md:text-5xl text-darkPurpule max-w-xl font-workSans">
         Personalized Career and Academic Mentors
       </h2>
-      <p class="text-base md:text-lg opacity-50 font-sans max-w-xl md:text-justify ">
+      <p class="text-base md:text-lg opacity-50 font-sans lg:max-w-xl text-justify">
         Our mentor program connects you with experienced professionals who provide personalized guidance to help you
         achieve your academic and career goals. Get one-on-one sessions tailored to your needs and interests.
       </p>
-
-      <div class="flex flex-col max-w-fit gap-4 mt-2">
+      <div class="flex flex-col md:flex-row lg:flex-col max-w-fit gap-4 mt-2">
         <div class="flex items-start gap-2">
           <div class="bg-black w-4 h-4 rounded-full mt-[6px]"></div>
           <div class="flex-col max-w-sm">
@@ -293,6 +298,7 @@
             </p>
           </div>
         </div>
+
         <div class="flex items-start gap-2">
           <div class="bg-black w-4 h-4 rounded-full mt-[6px]"></div>
           <div class="flex-col max-w-sm">
@@ -317,17 +323,51 @@
   </section>
 
 
-  <!-- Most Frequently asked Questions -->
-  <section class="flex flex-col lg:flex-row px-6 py-8 lg:py-14 ">
-    <!-- Left Section -->
-    <div class="flex flex-col gap-2 max-w-md ">
-      <p class="text-lg font-semibold text-center lg:text-left">Most questions</p>
-      <h2 class="text-2xl md:text-3xl lg:text-5xl font-semibold font-workSans text-center lg:text-left">
-        Frequently <br /> Asked Questions
-      </h2>
-
-      <button class="text-white px-6 py-3 text-lg md:max-w-fit bg-primaryBtn rounded mt-8">Ask Questions</button>
+ <!-- Contact Section -->
+ <section class="py-6 px-6 flex items-center lg:justify-between flex-col lg:flex-row" id="contact">
+  <div class="cursor-pointer overflow-hidden hidden lg:block">
+    <img src="./asserts/supportong.jpg" alt="mentor photo" class="
+    h-[21.2rem] w-[30rem] z-0 rounded-2xl">
+  </div>
+  <div class="bg-feature-section rounded-2xl text-white md:px-10 px-5 py-6 lg:max-w-fit">
+    <h2 class="text-2xl md:text-3xl lg:text-5xl font-semibold font-workSans text-center lg:text-left">
+      Connect With Skill Smooth
+    </h2>
+    <p class="text-base md:text-lg text-white opacity-70 font-sans max-w-lg md:text-justify pt-2">
+      Stay updated with Skill Smooth! Need help? Our customer support team is available 24/7 via email or live chat.
+      Join our mission to make education accessible to everyone. Connect with us now!
+    </p>
+    <div class="flex flex-col gap-6 mt-4">
+      <div class="flex flex-col lg:flex-row gap-6 items-center md:items-stretch">
+        <input type="text" placeholder="First Name"
+          class="w-11/12 md:w-auto bg-white rounded-md text-black px-4 py-2 text-xl focus:outline-none">
+        <input type="text" placeholder="Last Name"
+          class="w-11/12 md:w-auto bg-white rounded-md text-black px-4 py-2 text-xl focus:outline-none">
+      </div>
+      <div class="flex flex-col lg:flex-row gap-6">
+        <input type="email" placeholder="Email Id"
+          class="w-11/12 md:w-auto self-center md:self-stretch bg-white rounded-md text-black px-4 py-2 text-xl focus:outline-none">
+        <button class="text-white px-6 py-2 text-lg md:text-xl bg-primaryBtn rounded w-auto lg:w-[18.5rem]">Connect With
+          Us</button>
+      </div>
     </div>
+  </div>
+</section>
+
+  <!-- Most Frequently asked Questions -->
+  <section class="flex flex-col lg:flex-row px-6 py-8 lg:py-14 items-center lg:items-start ">
+    <!-- Left Section -->
+    <div class="flex flex-col gap-2 lg:max-w-md">
+      <p class="text-lg font-semibold text-center lg:text-left">Most questions</p>
+      <h2 class="sm:block md:hidden lg:block text-2xl md:text-3xl lg:text-5xl font-semibold font-workSans text-center lg:text-left">
+        Frequently Asked Questions
+      </h2>
+      <h2 class="hidden md:block lg:hidden text-2xl md:text-3xl lg:text-5xl font-semibold font-workSans text-center lg:text-left">
+        Frequently Asked Questions
+      </h2>
+      <button class="text-white px-6 py-3 md:mx-auto lg:mx-0 text-lg md:max-w-fit bg-primaryBtn rounded mt-6 shadow cursor-pointer hover:-translate-y-px hover:shadow-xl duration-500">Ask Questions</button>
+    </div>
+
 
     <!-- Right Section -->
     <div class="flex flex-col max-w-xl lg:ml-36 mt-4 lg:mt-0">

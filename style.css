@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .bg-dart {
   background-color: #ffffff;
   background-image: radial-gradient(#444cf7 2px, #ffffff 4px);
@@ -99,3 +102,8 @@ svg {
   background-size: cover;
   filter: grayscale(100%);
 }
+.contact-img {
+  background-image: url("./asserts/contact.jpg");
+  max-width: 500px;
+}
+/* linear-gradient( to right bottom, rgba(235, 151, 78, 0.35), rgba(230, 125, 34, 0.35) ), url(../asset/images/eating.jpg); */
