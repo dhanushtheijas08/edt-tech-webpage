@@ -1,0 +1,101 @@
+.bg-dart {
+  background-color: #ffffff;
+  background-image: radial-gradient(#444cf7 2px, #ffffff 4px);
+  background-size: 40px 40px;
+  opacity: 0.08;
+  z-index: -100;
+}
+.sampl {
+  color: #101110;
+  color: #281e3a;
+  background: rgb(43, 32, 60);
+  background: radial-gradient(
+    circle,
+    rgba(43, 32, 60, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.bg-radial {
+  background: #2b203c;
+  background: radial-gradient(
+    circle,
+    rgba(43, 32, 60, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+svg {
+  fill: #ffffff;
+}
+.bg-feature-section {
+  /* background: rgb(41, 30, 59);
+  background: linear-gradient(
+    111deg,
+    rgba(41, 30, 59, 1) 10%,
+    rgba(16, 16, 17, 1) 30%,
+    rgba(16, 16, 17, 1) 70%,
+    rgba(41, 30, 59, 1) 90%
+  ); */
+  /* background: rgb(41, 30, 59);
+  background: radial-gradient(
+    circle,
+    rgba(41, 30, 59, 1) 10%,
+    rgba(16, 16, 17, 1) 74%,
+    rgba(16, 16, 17, 1) 100%,
+    rgba(41, 30, 59, 1) 100%
+  ); */
+  /* background: rgb(16, 16, 17);
+  background: radial-gradient(
+    circle,
+    rgba(16, 16, 17, 1) 0%,
+    rgba(41, 30, 59, 1) 48%,
+    rgba(41, 30, 59, 1) 100%,
+    rgba(16, 16, 17, 1) 100%
+  ); */
+  /* background: rgb(16, 16, 17);
+  background: radial-gradient(
+    circle,
+    rgba(16, 16, 17, 1) 0%,
+    rgba(41, 30, 59, 1) 93%,
+    rgba(41, 30, 59, 1) 100%,
+    rgba(16, 16, 17, 1) 100%
+  ); */
+  background: rgb(41, 30, 59);
+  background: linear-gradient(
+    132deg,
+    rgba(41, 30, 59, 1) 0%,
+    rgba(16, 16, 17, 1) 50%,
+    rgba(16, 16, 17, 1) 61%,
+    rgba(40, 29, 57, 1) 85%
+  );
+}
+.mentor-img {
+  background-image: url("./asserts/mentor-photo.jpg");
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.svg-active {
+  position: relative;
+  transform: rotate(180deg);
+}
+
+.ans-hidden {
+  display: none;
+}
+
+.ui-ux {
+  background-image: url("./asserts/ui-ux.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+.web-dev {
+  background-image: url("./asserts/web-dev.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(100%);
+}
