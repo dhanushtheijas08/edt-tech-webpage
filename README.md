@@ -23,6 +23,12 @@ This project consists of a single web page that provides information about EDT T
 
 The responsive design is achieved using modern CSS techniques, including Flexbox and Grid, which make the website adaptable to different screen sizes. The use of JavaScript enhances the user experience by providing interactive features such as smooth scrolling and animated transitions.
 
+## Live Demo
+You can view a live demo of the EDT Tech project by following this link: [Live Webpage](https://skill-smooth.netlify.app/)
+
+## Demo Video
+You can also watch a demo video of the project by following this link: [Demo Video](https://skill-smooth.netlify.app/video)
+
 ## Installation
 
 ### To install the EDT Tech project on your local machine, follow these steps:
