@@ -33,14 +33,9 @@ You can also watch a demo video of the project by following this link: [Demo Vid
 ### To install the EDT Tech project on your local machine, follow these steps:
 
 1. Clone the repository using the following command:
-<<<<<<< HEAD
 
 ```bash
 git clone https://github.com/username/edt-tech-project.git
-=======
-```                                                 bash
-git clone https://github.com/dhanushtheijas08/edt-tech-webpage.git
->>>>>>> 3a81768bfb3b3d5b4610797fa5dbde3e5e745619
 ```
 
 2. Navigate to the project directory using the following command:
