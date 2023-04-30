@@ -2,7 +2,7 @@
 
 Welcome to the EDT Tech project! This is a modern web development project created using HTML, CSS (Tailwind CSS), and JavaScript, and it showcases the latest web development techniques and technologies. The objective of this project was to design and develop a responsive and user-friendly website that provides information about EDT Tech and its services. [Live Preview](https://skill-smooth.netlify.app/)
 
-## Project Overview
+## Project Overview 
 
 This project consists of a single web page that provides information about EDT Tech, its mission, and its services. The design of the website is clean and modern, with a focus on readability and usability. The website is fully responsive, with a mobile-first approach, which ensures that it looks great on all devices, including desktops, tablets, and mobile phones.
 
